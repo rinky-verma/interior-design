@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#left{
+    position: relative;
+    width: 10%;
+    height: 100%;
+    background-color: #fff;
+}
+#text{
+    position: absolute;
+    left: 25%;
+    top: 15%;
+}
+#text h2{
+    padding-top: 25px;
+}
+#text h1{
+  font-family: Gilroy;
+  font-size: 50px;
+  padding-left: 10px;
+}
+#center{
+    width: 35%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1564078516393-cf04bd966897?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+#div2l i{
+    color: rgba(51, 51, 51, 0.76);;
+}
+#ryt{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    background-color: #fff;
+}
+#div{
+    position: absolute;left: 15%;
+    width: 60%;
+    top: 10%;
+    height: 70%;
+}
+#lbtm{
+    position: absolute;
+    bottom: 5%;right: 10%;
+}
+#lc i{
+    position: absolute;right: 2%;
+    bottom: 3%;
+    color: rgba(0, 0, 0, 0.5);
+}
+#top{
+    width: 100%;
+    height: 40%;
+}
+#up{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 30%;
+}
+#upl{
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+#rtd{
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+#upc h1{
+    font-family: Gilroy;
+    font-size: 40px;
+    padding-top: 10px;
+}
+#upc{
+    width: 30%;
+    height: 100%;
+   
+}
+#upr{
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+#line1{
+    position: absolute;top: 50%;
+    width:100%;
+    height: 10%;
+    background-color: black;
+}
+#lin2{
+    position: absolute;top: 50%;
+    width:100%;
+    height: 10%;
+    background-color:black;
+}
+#down{
+    width: 100%;
+    height: 70%;
+    font-size: 77px;
+    font-family: Gilroy;
+}
+#middle{
+    width: 100%;
+    font-family: Gilroy;
+    padding:25px 0px;
+    height: 30%;
+}
+#btm{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 30%;
+}
+#btml{
+    width:45% ;
+    position: relative;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/photos/modern-scandinavian-home-interior-with-design-wooden-commode-tropical-picture-id1295250677?b=1&k=20&m=1295250677&s=170667a&w=0&h=yr8PpxAxVuw4Ps71SeiYoRtJgPwiR6fZiQKdL2WSLW4=);
+    background-position: center;
+    background-size: cover;
+}
+#circle{
+    background-color: rgba(78, 75, 75, 0.555);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    color: rgb(245, 245, 245);
+    top: 50%;
+    font-size: 45px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#circle i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#btmr{
+    width:45% ;
+    height: 100%;
+    font-family: Gilroy;
+}
+#div2{
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+#div2l{
+    width: 90%;
+    color: rgba(39, 32, 32, 0.459);
+    height: 100%;
+    padding: 2% 8%;
+    background-color: rgb(240, 240, 247);
+}
+#div2r{
+    position: relative;
+    width: 10%;
+    height: 100%;
+    background-color: rgba(180, 167, 46, 0.877);
+}
+#div2r h4{
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#lc h4{
+    position: absolute;
+    right: -14%;
+    bottom: 40%;
+    transform:rotate(270deg) ;
+}
